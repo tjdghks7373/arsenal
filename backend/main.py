@@ -12,6 +12,7 @@ app.add_middleware(
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
+)
 
 @app.get("/api/players")
 def get_players():
