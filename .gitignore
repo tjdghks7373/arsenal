@@ -1,0 +1,51 @@
+# --- Frontend (Next.js) ---
+node_modules
+.next
+out
+build
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# --- Python Backend ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+eggs/
+*.manifest
+*.spec
+
+# --- Common/Misc ---
+.DS_Store
+*.pem
+.env*
+.vscode/
+.idea/
+
+# Python 관련 제외
+.venv/
+__pycache__/
+*.pyc
+
+# Node.js 관련 제외
+node_modules/
+.next/
+dist/
+build/
+
+# 환경 변수 및 기타
+.env
+.DS_Store
